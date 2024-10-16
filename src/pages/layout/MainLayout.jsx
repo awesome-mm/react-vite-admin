@@ -1,7 +1,7 @@
 import AdminSideMenu from "@/components/common/hedaer/AdminSideMenu";
 import {Outlet} from "react-router-dom";
 
-export default function AdminLayout() {
+export default function MainLayout() {
   return (
     <div className="admin_layout" id="admin_layout">
       <AdminSideMenu />
